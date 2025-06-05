@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "WS_inputAssist_Test",
+  "version": "3.0",
+  "description": "tabで画面の行き、保存ボタンの作業省略をテスト中 6/5～前後のページ移動の修正中",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://world-switch.com/okoku/admin/products/*"
+      ]
+    }
+  ]
+}
